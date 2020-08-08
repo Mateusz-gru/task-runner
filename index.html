@@ -1,14 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="utf-8">
-      <title>My first website</title>
-      <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-      <h2>Wiersz</h2>
-      <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt ut<br>labore et dolore magna aliqua.
-          <br><br>Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip ex<br>ea commodo consequat.<br>Duis aute irure dolor in reprehenderit<br>in voluptate velit esse<br>cillum dolore eu fugiat nulla pariatur.<br><br>Excepteur sint occaecat cupidatat<br>non proident, sunt in culpa<br>qui officia deserunt mollit<br>anim id est laborum.</p>
-      <h4>Autor</h4>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Project Golden</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Marck+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+      <header class="splash">
+        <div class="splash-inner">
+          <h1 class="page-title">Welcome to our studio!</h1>
+          <h2 class="page-subtitle">IT'S NICE TO MEET YOU</h2>
+          <a class="btn btn-one" href="#">TELL ME MORE</a>
+        </div>
+
+        <nav>
+          <div class="container">
+            <img src="https://i.postimg.cc/1thCGbC2/Logo.png" alt="logo">
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+          </div>
+        </nav>
+      </header>
+
+      <section class="services">
+        <div class="container">
+          <h3 class="section-title">SERVICES</h3>
+          <p>What do we offer</p>
+          <div class="services-wrapper">
+            <article class="feature">
+                <i class="fas fa-shopping-basket"></i>
+                <h3 class="feature-title">E-commerce</h3>
+                <p class="feature-description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              </article>
+             <article class="feature">
+              <i class="fas fa-laptop-code"></i>
+              <h3 class="feature-title">Responsive Web</h3>
+            <p class="feature-description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              </article>
+              <article class="feature">
+                <i class="fas fa-lock"></i>
+                <h3 class="feature-title">Web Security</h3>
+                <p class="feature-description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              </article>
+            </div>
+        </div>
+      </section>
+
+        <section class="portfolio p-5">
+          <div class="container">
+            <h3 class="section-title">OUR PORTFOLIO</h3>
+            <p>Aliquam tincidunt mauris eu risus</p>
+            <div class="row">
+                  <div class="col-sm-6 col-lg-4">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="https://i.postimg.cc/q7bCCbrn/Image.png" alt="image">
+                      </div>
+                      <div class="card-body">
+                        <h5>Henna Khadi</h5>
+                        <p>Lorum ipsum gloria maniana</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="https://i.postimg.cc/N0dBsZth/Image.png" alt="image">
+                      </div>
+                      <div class="card-body">
+                        <h5>Honey soap</h5>
+                        <p>Lorum ipsum gloria maniana</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="https://i.postimg.cc/3RPjk85z/Image.png" alt="image">
+                      </div>
+                      <div class="card-body">
+                        <h5>Matcha tea</h5>
+                        <p>Lorum ipsum gloria maniana</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="https://i.postimg.cc/tJvssDxJ/Image.png" alt="image">
+                      </div>
+                      <div class="card-body">
+                        <h5>Rosy lemonade</h5>
+                        <p>Lorum ipsum gloria maniana</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="https://i.postimg.cc/sfWf7jCK/Image.png" alt="image">
+                      </div>
+                      <div class="card-body">
+                        <h5>Rosy lemonade</h5>
+                        <p>Lorum ipsum gloria maniana</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="https://i.postimg.cc/sgjZTQV3/Image.png" alt="image">
+                      </div>
+                      <div class="card-body">
+                        <h5>Rosy lemonade</h5>
+                        <p>Lorum ipsum gloria maniana</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </section>
+
+      <footer class="page-footer">
+	      <div class="container">
+          <p class="page-footer">© Copyright 2014 FreebiesXpress.com</p>
+	        <ul class="social-links">
+             <li><a href="#"><i class="fab fa-twitter"></i>twitter</a></li>
+             <li><a href="#"><i class="fab fa-facebook-f"></i>facebook</a></li>
+             <li><a href="#"><i class="fab fa-pinterest-p"></i>pinterest</a></li>
+             <li><a href="#"><i class="fab fa-google-plus-g"></i>googleplus</a></li>
+           </ul>
+	       </div>
+	    </footer>
+
+    </body>
 </html>
